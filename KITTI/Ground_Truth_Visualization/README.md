@@ -4,4 +4,8 @@ This kit help interpate the disparity map of KITTI ground truth. Basically I fol
 
 The colormap is using "plasma" to better visuaize the result. 
 
+## Ground Truth Disparity Map
 ![alt text](https://github.com/kspeng/Dataset-Preparation/blob/master/KITTI/Ground_Truth_Visualization/disp_gt_cmap_plasma.png)
+
+## Interpolated Ground Truth Disparity Map
+![alt text](https://github.com/kspeng/Dataset-Preparation/blob/master/KITTI/Ground_Truth_Visualization/disp_gt_interp.png)
