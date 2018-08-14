@@ -34,7 +34,7 @@ img_dilation = np.array(cv2.dilate(img[:,:,0], kernel, iterations=dilation_iter)
 
 img_dilation = cv2.morphologyEx(img_dilation, cv2.MORPH_CLOSE, kernel)
 
-plt.imsave(os.path.join("{}.png".format(output_name)), img_dilation, cmap='plasma')
+plt.imsave("image/{}.png".format(output_name), img_dilation, cmap='plasma')
 
 if showOut:
 	plt.imshow(img_dilation, cmap = 'plasma')
